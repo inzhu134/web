@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    min-height: 72px;
+    margin: 0 auto;
+}
+a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header{
+    background-color: aquamarine;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header__card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header__logo{
+    width: 40px;
+    height: auto;
+}
+.header__menu img{
+    width: 35px;
+    height: 35px;
+}
+.header_menu a{
+    font-size: 17px;
+}
+.header__btn{
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+main{
+    background-color: rgb(52, 56, 52);
+}
+.section{
+    padding: 80px 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    margin: 0 auto;
+}
+.content__h1{
+    color: white;
+    padding: 30px;
+    line-height: 56px;
+}
+.content__text{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.content__btn1{
+    background-color: rgb(18, 83, 2);
+    border:none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#content__btn2{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 8px;
+}
+#content__btn2 p{
+    color: white;
+    font-size: 16px;
+}
+#content__btn2 img{
+    width: 25px;
+    height: 25px;
+}
+.main__little{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.about.bg{
+    background-color: white;
+}
+.about{
+    padding: 54px 256px;
+    background-color: pink;
+    border-radius: 10px;
+    align-items: center;
+    transform: translateY(-50%);
+}
+.about__us{
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.about__h2{
+    font-size: 48px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+.about__descr{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.about__link{
+    display: inline-block;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 8px;
+}
